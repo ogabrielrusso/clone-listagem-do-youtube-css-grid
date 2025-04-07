@@ -1,5 +1,13 @@
 # 📺 clone-listagem-do-youtube-css-grid
 
+__Entendendo o Desafio__
+
+Neste Desafio você colocará a mão na massa e irá Construir a Página de Listagem de vídeos no YouTube com CSS colocando em prática todos os conceitos aprendidos, principalmente sobre Grid Layout.
+
+Seja criativo(a) e dê a sua identidade para o Projeto. Lembre-se que para um(a) Profissional de Tecnologia é super importante ter um portfólio sólido e completo.
+
+ 
+
 ## Descrição do Projeto
 Este projeto é uma réplica da interface do YouTube, construída com HTML e CSS, com foco na implementação de Grid Layout para organizar a seção de vídeos. O clone apresenta uma interface responsiva que se adapta a diferentes tamanhos de tela e inclui os principais elementos da plataforma YouTube.
 

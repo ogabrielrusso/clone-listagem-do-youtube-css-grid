@@ -1,4 +1,4 @@
-# YouTube Clone
+# 📺 clone-listagem-do-youtube-css-grid
 
 ## Descrição do Projeto
 Este projeto é uma réplica da interface do YouTube, construída com HTML e CSS, com foco na implementação de Grid Layout para organizar a seção de vídeos. O clone apresenta uma interface responsiva que se adapta a diferentes tamanhos de tela e inclui os principais elementos da plataforma YouTube.

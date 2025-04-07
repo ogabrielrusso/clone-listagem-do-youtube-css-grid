@@ -157,14 +157,12 @@ header {
     font-weight: 500;
 }
 
-/* Main content */
 .main-content {
     margin-left: 240px;
     padding: 24px;
     width: calc(100% - 240px);
 }
 
-/* Category bar */
 .category-bar {
     display: flex;
     overflow-x: auto;

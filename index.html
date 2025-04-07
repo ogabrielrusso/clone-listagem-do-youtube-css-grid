@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="left-section">
+            <button class="menu-icon"><i class="fas fa-bars"></i></button>
+            <a href="/" class="logo">
+                <img src="assets/img/new-youtube-logo-840x402-removebg-preview (1).png" alt="YouTube Logo"
+                    class="logo-image">
+                <span>BR</span>
+            </a>
+        </div>
+        <div class="center-section">
+            <input class="search-bar" type="text" placeholder="Pesquisar">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+            <button class="mic-button"><i class="fas fa-microphone"></i></button>
+        </div>
+        <div class="right-section">
+            <button class="icon-button"><i class="fas fa-plus"></i></button>
+            <button class="icon-button"><i class="fas fa-bell"></i></button>
+            <div class="profile-picture"></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-home"></i></div>
+                <div class="sidebar-text">Explorar</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-fire"></i></div>
+                <div class="sidebar-text">Em alta</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-shopping-cart"></i></div>
+                <div class="sidebar-text">Shopping</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-music"></i></div>
+                <div class="sidebar-text">Música</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-film"></i></div>
+                <div class="sidebar-text">Filmes</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-broadcast-tower"></i></div>
+                <div class="sidebar-text">Ao vivo</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-gamepad"></i></div>
+                <div class="sidebar-text">Jogos</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-newspaper"></i></div>
+                <div class="sidebar-text">Notícias</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-trophy"></i></div>
+                <div class="sidebar-text">Esportes</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-book"></i></div>
+                <div class="sidebar-text">Cursos</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-podcast"></i></div>
+                <div class="sidebar-text">Podcasts</div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="sidebar-section-title">Mais do YouTube</div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-star"></i></div>
+                <div class="sidebar-text">YouTube Premium</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-video"></i></div>
+                <div class="sidebar-text">YouTube Studio</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-headphones"></i></div>
+                <div class="sidebar-text">YouTube Music</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-child"></i></div>
+                <div class="sidebar-text">YouTube Kids</div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-cog"></i></div>
+                <div class="sidebar-text">Configurações</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-icon"><i class="fas fa-flag"></i></div>
+                <div class="sidebar-text">Histórico de denúncias</div>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Category bar -->
+            <div class="category-bar">
+                <div class="category-item active">Tudo</div>
+                <div class="category-item">Música</div>
+                <div class="category-item">Jogos</div>
+                <div class="category-item">Mixes</div>
+                <div class="category-item">Nintendo Switch</div>
+                <div class="category-item">Mario</div>
+                <div class="category-item">Notícias</div>
+                <div class="category-item">Podcasts</div>
+                <div class="category-item">Música-tema</div>
+                <div class="category-item">Arranjos</div>
+                <div class="category-item">Programação de computadores</div>
+                <div class="category-item">Linux</div>
+                <div class="category-item">Ao vivo</div>
+                <div class="category-item">Pop rock</div>
+                <div class="category-item">Universidades</div>
+                <div class="category-item">Vendas</div>
+            </div>
+
+            <!-- Video grid -->
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-01.png" alt="The Hobbit - Misty Mountains">
+                        <!--<div class="duration">4:40</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="Leyna Robinson-Stone">-->
+                        <div class="video-details">
+                            <h3 class="video-title">The Hobbit - Misty Mountains (whistle version by Leyna
+                                Robinson-Stone)</h3>
+                            <p class="channel-name">Leyna Robinson-Stone</p>
+                            <p class="video-metadata">2,3 mi de visualizações • há 5 meses</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-02.png"
+                            alt="Back To Hogwarts | Harry Potter Music">
+                        <!--<div class="duration">58:32</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="Pixel Peace">-->
+                        <div class="video-details">
+                            <h3 class="video-title">Back To Hogwarts | Harry Potter Music and Ambience from Hogwarts
+                                Legacy</h3>
+                            <p class="channel-name">Pixel Peace</p>
+                            <p class="video-metadata">1 mi de visualizações • há 6 meses</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-03.png" alt="Meu mix">
+                        <!--<div class="duration">Mix</div>-->
+                    </div>
+                    <div class="video-info">
+                        <div class="video-details">
+                            <h3 class="video-title">Meu mix</h3>
+                            <p class="channel-name">The Pink Singers, Orquestra Sinfônica de Londres, Stellenbosch
+                                University Choir</p>
+                            <p class="video-metadata">Atualizado hoje</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-04.png" alt="Nagato Pain Theme">
+                        <!--<div class="duration">6:33</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="TheTobiUchiha">-->
+                        <div class="video-details">
+                            <h3 class="video-title">Nagato Pain Theme 「 Girei 」 with Rain & Thunder - Extended</h3>
+                            <p class="channel-name">TheTobiUchiha</p>
+                            <p class="video-metadata">3,8 mi de visualizações • há 4 anos</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-05.png"
+                            alt="Mix de Linkin Park - Numb for cello and piano">
+                        <!--<div class="duration">Mix</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="Gnus Cello">-->
+                        <div class="video-details">
+                            <h3 class="video-title">Mix de Linkin Park - Numb for cello and piano (COVER)</h3>
+                            <p class="channel-name">Gnus Cello, Sia, William Josephe outros</p>
+                            <p class="video-metadata">Atualizado hoje</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-06.png" alt="O que é um Daemon">
+                        <!--<div class="duration">11:20</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="Boson Treinamentos">-->
+                        <div class="video-details">
+                            <h3 class="video-title">O que é um Daemon em Ciência da Computação - Conceitos Básicos de SO
+                            </h3>
+                            <p class="channel-name">Boson Treinamentos</p>
+                            <p class="video-metadata">7,3 mil visualizações • há 3 dias</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 7 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-07.png" alt="Les Misérables">
+                        <!--<div class="duration">2:10</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="LesMiserables MovieSoundtrack">-->
+                        <div class="video-details">
+                            <h3 class="video-title">25. Do you hear the people sing - Les Misérables</h3>
+                            <p class="channel-name">LesMiserables MovieSoundtrack</p>
+                            <p class="video-metadata">341 mil visualizações • há 12 anos</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 8 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-08.png" alt="Faculdade EAD">
+                        <!--<div class="duration">10:06</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="Anali Vicente">-->
+                        <div class="video-details">
+                            <h3 class="video-title">Faculdade EAD Estácio vale a pena? |STUDY VLOG #studyvlog
+                                #administração</h3>
+                            <p class="channel-name">Anali Vicente</p>
+                            <p class="video-metadata">72 mil visualizações • há 1 ano</p>
+                        </div>
+                        <button class="options-button">⋮</button>
+                    </div>
+                </div>
+
+                <!-- Video 9 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-09.png" alt="Vídeo 9">
+                        <!--<div class="duration">8:45</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="The Wizard">-->
+                        <div class="video-details">
+                            <h3 class="video-title">Kate Bush - Running Up That Hill (Music Video) | Max's Song |
+                                Stranger Things..</h3>
+                            <p class="channel-name">The Wizard</p>
+                            <p class="video-metadata">2,3 mi de visualizações • há 2 anos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 10 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img class="thumbnail" src="assets/img/video-10.png" alt="Vídeo 10">
+                        <!--<div class="duration">12:30</div>-->
+                    </div>
+                    <div class="video-info">
+                        <!--<img class="channel-avatar" src="/api/placeholder/36/36" alt="Jammin' Sam Miller">-->
+                        <div class="video-details">
+                            <h3 class="video-title">Donkey Kong Country - Aquatic Ambience [Restored] Extended (NEW 2020
+                                MIX)</h3>
+                            <p class="channel-name">
+                                Jammin' Sam Miller</p>
+                            <p class="video-metadata">2,3 mi de visualizações • há 4 anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
